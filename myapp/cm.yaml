@@ -1,17 +1,7 @@
 apiVersion: v1
-<<<<<<< HEAD
-
-=======
->>>>>>> 7c0bdbddad4ff19b71fca256db2b4b21bdb09a64
 kind: ConfigMap
 metadata:
   name: myapp
 data:
   index.html: |
     This is a testing Argo Cd custom app!
-
-
-<<<<<<< HEAD
-           This is a custom app!
-=======
->>>>>>> 7c0bdbddad4ff19b71fca256db2b4b21bdb09a64
