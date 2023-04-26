@@ -6,6 +6,7 @@ metadata:
   {{- include "webapp.labels" . | nindent 4 }}
 data:
   index.html: |
+    This is a new Line by Imran Siddiqui <p>      
     This is version {{ .Chart.AppVersion }} of our app, running in {{ .Values.appType }}
 
 
